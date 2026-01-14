@@ -22,6 +22,7 @@ const Navigation = ({ onOpenCart }) => {
     { name: 'Home', path: '/' },
     { name: 'Products', path: '/products' },
     { name: 'Wheel of Life', path: '/wheel-of-life', isSpecial: true },
+    { name: 'Productivity Type', path: '/productivity-type' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
   ];

@@ -10,6 +10,7 @@ import ProductSleep from '@/pages/ProductSleep';
 import ProductStress from '@/pages/ProductStress';
 import ProductProcrastination from '@/pages/ProductProcrastination';
 import WheelOfLife from '@/pages/WheelOfLife';
+import ProductivityType from '@/pages/ProductivityType';
 import Blog from '@/pages/Blog';
 import Contact from '@/pages/Contact';
 import Success from '@/pages/Success';
@@ -40,6 +41,7 @@ function App() {
             <Route path="/products/stress" element={<ProductStress />} />
             <Route path="/products/procrastination" element={<ProductProcrastination />} />
             <Route path="/wheel-of-life" element={<WheelOfLife />} />
+            <Route path="/productivity-type" element={<ProductivityType />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/success" element={<Success />} />
